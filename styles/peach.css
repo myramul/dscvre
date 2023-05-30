@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2bb9b;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    bottom: 0;
+    background: #000000;
+    background-size: cover;
+    clear: both; 
+}
+
+.homelink {
+    font-size: 300%;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    text-align: right;
+    align-content: center;
+    justify-content: center;
+    bottom: 65%;
+    right: 3%;
+    text-decoration:underline;
+
+}
+
+footer a {
+    color:white;
+}
+
+footer a:hover{
+    color: #ef9188;
+    font-size: 110%;
+}
+
+header {
+    font-weight: bold;
+    font-size: 205%;
+    color: black;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 0.5%;
+    font-style: italic;
+    clear: both;
+}
+
+div img {
+    border: solid white 3pt;
+    justify-content: center;
+    align-content: center;
+}
+
+.colums::after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.column {
+    float: left;
+    width: 33.333%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 0 auto;
+    padding-left: 0 auto;
+    padding-right: 0 auto;
+    color: white;
+}
+
+.column p {
+    font-size: 73%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+div p.description { 
+    font-size: 45%;
+    text-align: right;
+    align-content: center;
+    justify-content: center;
+    padding-right: 5%;
+    padding-top: 15%;
+    padding-left: 0 auto;
+    padding-bottom: 0 auto;
+    color: white;
+}
+
+.columns a {
+    color: white;
+    text-decoration: none;
+}
+.columns a:hover {
+    color:#ef9188;
+    font-size: 115%;
+}
+
+.columns a:visited {
+    color:#ef9188;
+}
+footer img {
+    border-style: none;
+}
+
+header {
+    color: white;
+}
+
+.column img {
+    margin-left: 5%;
+}
